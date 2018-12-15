@@ -2,13 +2,14 @@
 # Deep Learning for Human Activity Recognition
 
 ### Aim:
-    This project aims to develop a Convolution Network to perform activtiy recognintion of physical activities using on-body Inertial Measurement Sensors.
+
+This project aims to develop a Convolution Network to perform activtiy recognintion of physical activities using on-body Inertial Measurement Sensors.
     
-    Tensorflow and Keras APIs were used for the development of a 1D Sequential CNN of 7 Layers.
+Tensorflow and Keras APIs were used for the development of a 1D Sequential CNN of 7 Layers.
     
-    An old version of the Actitracker dataset from the  Wireless Sensor Data Mining (WISDM) lab at Fordham University, NY, USA was used to train and test the network. The dataset can be downloaded from: https://github.com/bharatm11/1D_CNN_Human_activity_recognition
+An old version of the Actitracker dataset from the  Wireless Sensor Data Mining (WISDM) lab at Fordham University, NY, USA was used to train and test the network. The latest dataset can be downloaded from: http://www.cis.fordham.edu/wisdm/dataset.php#actitracker
     
-    The activity states provided in the dataset are jogging, walking, ascending stairs, descending stairs, sitting and standing. The data was collected from 36 users using a smartphone in their pocket with the 20Hz sampling rate (20 values per second).
+The activity states provided in the dataset are jogging, walking, ascending stairs, descending stairs, sitting and standing. The data was collected from 36 users using a smartphone in their pocket with the 20Hz sampling rate (20 values per second).
      
 
 ### Pipeline
@@ -114,4 +115,4 @@ A test accuracy of 92.66 % and training accuracy of 93.73% was achieved. The alg
 
 ### Dataset
 
- Actitracker dataset from the  Wireless Sensor Data Mining (WISDM) lab at Fordham University, NY, USA was used to train and test the network. The dataset can be downloaded from: https://github.com/bharatm11/1D_CNN_Human_activity_recognition
+Actitracker dataset from the  Wireless Sensor Data Mining (WISDM) lab at Fordham University, NY, USA was used to train and test the network. The latest dataset can be downloaded from: http://www.cis.fordham.edu/wisdm/dataset.php#actitracker
